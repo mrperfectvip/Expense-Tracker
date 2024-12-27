@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+.main .fill{
+ height: 40px;
+ width: 280px;
+ border-radius: 10px;
+ padding-left: 5px;
+ border: 1px solid white;
+ box-shadow: 0.1px 0.1px 1px #000000, -0.1px -0.1px 1px #000000;
+}
+.checkbox{
+    display: flex;
+    height: 40px;
+    width: auto;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.signup{
+    border: none;
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #7B3FF4;
+}
+
+.account-type{
+    position:relative;
+    bottom: -123px;
+    height: 250px;
+    background-color: white;
+    width: 100%;
+    max-width: 350px;
+    padding: 0px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
